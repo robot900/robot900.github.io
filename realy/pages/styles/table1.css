@@ -1,0 +1,6 @@
+a{text-decoration: none; padding: 5px 10px; background-color: lightgray; color: indigo; border-radius: 15px; padding-bottom: 8px; line-height: 32px; font-size: 101%}
+a:hover{background-color: snow; color: purple;}
+body{background-color: gray;}
+body:hover{background-color: skyblue;}
+h3{line-height: 5px;}
+h4{line-height: 5px;}
