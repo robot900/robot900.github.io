@@ -1,8 +1,18 @@
 <html>
 <head>
+<script>
+function goin(){
+	var userid = document.getElementById("userid").value;
+	var userpass = document.getElementById("userpass").value;
+	if (userid == "Vasya"){
+		if (userpass == "123456789"){
+			window.location.href="realy/real.html";
+		}
+	}
+}
+</script>
 </head>
 <body oncontextmenu="return false">
-<script src="realy/1.js"></script>
 <center>
 <input type="text" id="userid"></input><br>
 <input type="password" id="userpass"></input><br>
