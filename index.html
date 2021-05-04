@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Вход</title>
+<meta name="robots" content="noindex">
+<meta name="robots" content="nofollow">
+<script>
+function goin(){
+	var userid = document.getElementById("userid").value;
+	var userpass = document.getElementById("userpass").value;
+	if (userid == "Vasya"){
+		if (userpass == "123456789"){
+			window.location.href="realy/real.html";
+		}
+	}
+}
+</script>
+</head>
+<body oncontextmenu="return false">
+<center>
+<input type="text" id="userid"></input><br>
+<input type="password" id="userpass"></input><br>
+<button onclick="goin()"> Войти </button>
+</center>
+</body>
+</html>
